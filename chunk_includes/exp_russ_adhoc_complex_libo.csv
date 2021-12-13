@@ -1,0 +1,30 @@
+item_number,old_item_name,item_name,sentence_intro,sentence_guess,sentence_outcome2,disjunction_type,outcome,type,condition,imgur_intro,imgur_guess,imgur_outcome,sentence_outcome1
+1,d1,d1,Лора решила разбить сад.,"Она посадит либо апельсин, либо яблоню.",She planted an apple and a cherry tree.,complex,adhoc,test_item,target,d1.intro.JPG,0.guess.jpg,d1.adhoc.jpg,Вот что произошло:
+2,d2,d2,Женя хочет украсить стену.,"Она повесит на нее либо плакат, либо часы.",She only put up a clock.,complex,only one,test_item,control_true,d2.intro.jpg,0.guess.jpg,d2.one.jpg,Вот что произошло:
+3,d3,d3,Иван идет на рынок.,"Он купит либо арбуз, либо тыкву.",He bought grapes.,complex,neither,test_item,control_false,d3.intro.JPG,0.guess.jpg,d3.neither.jpg,Вот что произошло:
+4,d4,d4,Боря роется в ящике для игрушек.,"Он будет играть либо с машинкой, либо с лодочкой.",He played with a plane and a boat. ,complex,adhoc,test_item,target,d4.adhocV2.intro.jpg,0.guess.jpg,d4.adhocV2.jpg,Вот что произошло:
+5,d5,d5,Миша собирается на прогулку.,"Он наденет либо шапку, либо шарф.",He only put on a scarf.,complex,only one,test_item,control_true,d5.intro.JPG,0.guess.jpg,d5.one.jpg,Вот что произошло:
+6,d6,d6,Олег идет на вечеринку.,"Он принесет с собой либо торт, либо чипсы.",He brought a bottle.,complex,neither,test_item,control_false,d6.intro.JPG,0.guess.jpg,d6.neither.jpg,Вот что произошло:
+7,d7,d7,Рая собирается в зоомагазин.,"Она купит либо канарейку, либо кролика.",She bought a rabbit and a fish. ,complex,adhoc,test_item,target,d7.adhocV2.intro.jpg,0.guess.jpg,d7.adhocV2.jpg,Вот что произошло:
+8,d8,d8,Коля хочет расслабиться сегодня вечером.,"Он будет вязать либо шарф, либо носки.",He only knitted a scarf.,complex,only one,test_item,control_true,d8.intro.JPG,0.guess.jpg,d8.one.jpg,Вот что произошло:
+9,d9,d9,Маша заказывает еду по телефону.,"Она закажет либо суп, либо салат.",She ordered pizza.,complex,neither,test_item,control_false,d9.intro.jpg,0.guess.jpg,d9.neither.jpg,Вот что произошло:
+10,new,f1,Ксюша планирует устроить гаражную распродажу.,Она заработает много денег.,unclear,filler,unclear,filler_item,target,f1.intro.jpg,0.guess.jpg,f1.unclear.jpg,Вот что произошло:
+11,new,f2,Сегодня ночью будет шторм.,Он повалит несколько деревьев.,correct,filler,correct,filler_item,control_true,f2.intro.jpg,0.guess.jpg,f2.correct.jpg,Вот что произошло:
+12,new,f3,Павел решил пойти спать.,"Он приберется прежде, чем лечь в кровать.",incorrect,filler,incorrect,filler_item,control_false,f3.intro.jpg,0.guess.jpg,f3.incorrect.jpg,Вот что произошло:
+13,new,о,Вика купила праздничные шапочки для вечеринки.,Гостям шапочки понравятся.,unclear,filler,unclear,filler_item,target,f4.intro.jpg,0.guess.jpg,f4.unclear.jpg,Вот что произошло:
+14,new,f5,Никита готовит суп на ужин.,Он будет ужинать один.,correct,filler,correct,filler_item,control_true,f5.intro.jpg,0.guess.jpg,f5.correct.jpg,Вот что произошло:
+15,new,f6,На улице стоит прекрасная погода.,Пляж будет полон людей.,incorrect,filler,incorrect,filler_item,control_false,f6.intro.jpg,0.guess.jpg,f6.incorrect.jpg,Вот что произошло:
+16,new,f7,Лиля выезжает из своей коммунальной квартиры.,Онa заберет с собой свои любимые картины.,unclear,filler,unclear,filler_item,target,f7.adhocV2.intro.jpg,0.guess.jpg,f7.adhocV2.unclear.jpg,Вот что произошло:
+17,new,f8,Марина собирается принять пенную ванну.,Она зажжет свечи.,correct,filler,correct,filler_item,control_true,f8.intro.jpg,0.guess.jpg,f8.correct.jpg,Вот что произошло:
+18,new,f9,Карина приготовила закуски для своего сына.,Он с радостью их попробует.,incorrect,filler,incorrect,filler_item,control_false,f9.intro.jpg,0.guess.jpg,f9.incorrect.jpg,Вот что произошло:
+19,n4,n1,Мила идет в цветочный магазин.,Она купит в магазине два цветка.,She bought three plants.,numeral,more than two,filler_item,target,n1.intro.JPG,0.guess.jpg,n1.more.JPG,Вот что произошло:
+20,n5,n2,София хочет прибраться в доме.,Она приберет две комнаты в доме.,She cleaned the bathroom and the kitchen.,numeral,two,filler_item,control_true,n2.intro.jpg,0.guess.jpg,n2.two.jpg,Вот что произошло:
+21,n6,n3,Джессика участвует в Олимпиаде.,Она выиграет на Олимпиаде две медали.,She only won one medal.,numeral,less than two,filler_item,control_false,n3.intro.JPG,0.guess.jpg,n3.less.JPG,Вот что произошло:
+22,n7,n4,Антон собирается в путешествие.,Он возьмет с собой два чемодана.,He brought four pieces of luggage.,numeral,more than two,filler_item,target,n4.intro.jpg,0.guess.jpg,n4.more.JPG,Вот что произошло:
+23,n8,n5,Камилла рекламирует новую пьесу.,Она повесит два плаката в вестибюле.,She put up two of them,numeral,two,filler_item,control_true,n5.intro.JPG,0.guess.jpg,n5.two.jpg,Вот что произошло:
+24,n9,n6,Карен собирается в торговый центр.,Он купит там два пиджака.,He bought one jacket.,numeral,less than two,filler_item,control_false,n6.intro.JPG,0.guess.jpg,n6.less.jpg,Вот что произошло:
+25,n10,n7,Марк получил в подарок коробку конфет.,Он съест две конфеты из коробки.,He ate four.,numeral,more than two,filler_item,target,n7.intro.jpg,0.guess.jpg,n7.more.jpg,Вот что произошло:
+26,n11,n8,Сестра Анны выходит замуж в эти выходные.,Анна подарит ей два подарка.,She brought two gifts.,numeral,two,filler_item,control_true,n8.intro.JPG,0.guess.jpg,n8.two.jpg,Вот что произошло:
+27,n12,n9,Женя работает в приюте для животных.,Он выведет на прогулку двух собак.,He only took one.,numeral,less than two,filler_item,control_false,n9.intro.jpg,0.guess.jpg,n9.less.jpg,Вот что произошло:
+28,new,p1,Рита посещает курс по искусству.,Она вылепит скульптуру для урока.,She painted a landscape. ,practice,practice,practice,practice_false,p1.intro.JPG,0.guess.jpg,p1.false.JPG,Вот что произошло:
+29,p2,p2,Егор любит ходить в горы.,Завтра он пойдет на прогулку в горы.,He climbed a mountain.,practice,practice,practice,practice_true,p2.intro.jpg,0.guess.jpg,p2.true.JPG,Вот что произошло:
